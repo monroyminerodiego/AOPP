@@ -7,7 +7,7 @@ The purpose of this repository is to publicly document a Python-based automation
 >
 >The documentation and publication of some file are still in progress; This version is not the final one.
 
----
+--- 
 
 ## Requirements
 These are the requirements for this project to function properly:
@@ -58,7 +58,7 @@ These are the requirements for this project to function properly:
    - **file_6.csv:**
    - **file_7.csv:**
 
----
+--- 
 
 ## Change Log (Commit description)
 ### 2023-09-11:
