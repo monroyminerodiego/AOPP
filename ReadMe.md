@@ -35,7 +35,28 @@ These are the requirements for this project to function properly:
    - **upload_databases.py:** 
 
 ### Deployed_Robot
-   - 
+   - **Images**
+      - **System_1:**
+      - **loading.png:**
+   - **(AOOP)Process_1.py**
+
+### Downloads
+   - **download_1.csv:**
+   - **download_2.csv:**
+   - **download_3.csv:**
+   - **download_4.csv:**
+   - **download_5.csv:**
+   - **download_6.csv:**
+   - **download_7.csv:**
+
+### Files
+   - **file_1.csv:**
+   - **file_2.csv:**
+   - **file_3.csv:**
+   - **file_4.csv:**
+   - **file_5.csv:**
+   - **file_6.csv:**
+   - **file_7.csv:**
 
 ---
 
