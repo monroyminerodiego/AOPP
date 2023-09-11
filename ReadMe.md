@@ -3,7 +3,9 @@
 ## Description
 The purpose of this repository is to publicly document a Python-based automation project that I developed. This project does not contain any sensitive information from the company for which it was developed, but it does contain the structure and all the files necessary for the project to be functional.
 
-**The documentation and publication of some file are still in progress; This version is not the final one.**
+>[!IMPORTANT]
+>
+>The documentation and publication of some file are still in progress; This version is not the final one.
 
 ---
 
