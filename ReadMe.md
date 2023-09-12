@@ -1,11 +1,11 @@
 # AOPP (Automatization Of Processes with Python)
 
 ## Description
-The purpose of this repository is to publicly document a Python-based automation project that I developed. This project does not contain any sensitive information from the company for which it was developed, but it does contain the structure and all the files necessary for the project to be functional.
+The purpose of this repository is to showcase the creation of one of my professional projects. This project focuses on the automation of a business process where too many human resources were being spent. The implementation of a software that can automate this process generated an impact on the daily performance of activities and increased sales results by 80%.
 
 >[!IMPORTANT]
 >
->The documentation and publication of some file are still in progress; This version is not the final one.
+>The documentation and publication of some file are still in progress; This is not the final version.
 
 --- 
 
@@ -29,6 +29,36 @@ These are the requirements for this project to function properly:
 
 ## Detailed Description of files and functions
 ### DataBase_Managment
+   - **conex.py** This file is where my connection to my remote database is, according to a set of rules, we could determine if it is needed to use server 1 or server 2.
+   
+<table>
+    <thead>
+        <tr>
+            <th>Function Name</th>
+            <th>Inputs</th>
+            <th>Outputs</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">conexion()</td>
+            <td align="center">
+               * query: class 'str'. Here you can put the query as SQL code and the function will read it properly<br>
+               * data: class 'str'. Can be also pased a list or a tuple. It is usefull to insert multiple different rows to a database<br>
+               * con: class 'str'. Server to connect. By Default it is connected to server1, but it can be changed.<br>
+               * print_con: class 'bool'. By Default is set to False,<br>but when set to True, it will print a confirmation message <br>
+            </td>
+            <td align="center">
+               * This function does not gives any output when functioning properly. The only visual confirmation (via console) that something in the function is working would be when 'print_con' is set to True.
+            </td>
+            <td align="center">
+               - If 'con' is equal to 'server1', then  
+            </td>
+        </tr>
+    </tbody>
+</table>
+
    - **download_databases.py:** 
    - **Process_1.py:** 
    - **update_link.py:** 
@@ -64,3 +94,6 @@ These are the requirements for this project to function properly:
 ### 2023-09-11:
 - Added files to start making the structure of this repository.
 - Added documentation.
+
+### 2023-09-12:
+- DataBase_Managment\:Added 2 files, conex.py and download_databases.py
