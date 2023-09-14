@@ -10,7 +10,6 @@ def conexion(query='',data='',con='server1',print_con=False):
       passwd = os.getenv("PASSWORD_S1"),
       db     = os.getenv("DATABASE_S1"),
       ssl    = os.getenv("UNIVERSAL_SSL"))
-    cnx.autocommit(True)
   elif con.lower() == 'server2':
     cnx = MySQLdb.connect(
       host   = os.getenv("HOST_S2"),
@@ -18,9 +17,10 @@ def conexion(query='',data='',con='server1',print_con=False):
       passwd = os.getenv("PASSWORD_S2"),
       db     = os.getenv("DATABASE_S2"),
       ssl    = os.getenv("UNIVERSAL_SSL"))
-    cnx.autocommit(True)
     crs = cnx.cursor()
 
+  cnx.autocommit(True)
+  
   if print_con:
     print(f"Connected to: {con}")
 
@@ -34,5 +34,4 @@ def conexion(query='',data='',con='server1',print_con=False):
     return lista
   
 if __name__ == '__main__':
-  print(os.getenv("HOST_S1"))
   conexion(print_con=True)
